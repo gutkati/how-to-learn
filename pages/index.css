@@ -18,17 +18,17 @@
 /*description*/
 
 @import "../blocks/description/description.css";
-@import "../blocks/description/two-columns/two-columns.css";
-@import "../blocks/description/two-columns/__brief/two-columns__brief.css";
-@import "../blocks/description/two-columns/__main-text/two-columns__main-text.css";
-@import "../blocks/description/two-columns/__paragraph/two-columns__paragraph.css";
-@import "../blocks/description/two-columns/__span-accent/two-columns__span-accent.css";
+@import "../blocks/two-columns/two-columns.css";
+@import "../blocks/two-columns/__brief/two-columns__brief.css";
+@import "../blocks/two-columns/__main-text/two-columns__main-text.css";
+@import "../blocks/two-columns/__paragraph/two-columns__paragraph.css";
+@import "../blocks/two-columns/__span-accent/two-columns__span-accent.css";
 
 /*techniques*/
 
 @import "../blocks/techniques/techniques.css";
-@import "../blocks/digits/section-title/section-title.css";
-@import "../blocks/digits/section-subtitle/section-subtitle.css";
+@import "../blocks/section-title/section-title.css";
+@import "../blocks/section-subtitle/section-subtitle.css";
 @import "../blocks/techniques/cards/cards.css";
 @import "../blocks/techniques/cards/__item/cards__item.css";
 @import "../blocks/techniques/cards/__image/cards__image.css";
@@ -38,18 +38,12 @@
 /*video*/
 
 @import "../blocks/video/video.css";
-@import "../blocks/digits/section-title/section-title.css";
-@import "../blocks/digits/section-subtitle/section-subtitle.css";
 @import "../blocks/video/__iframes/video__iframes.css";
 @import "../blocks/video/__iframe/video__iframe.css";
 
 /*oakley*/
 
 @import "../blocks/oakley/oakley.css";
-@import "../blocks/description/two-columns/two-columns.css";
-@import "../blocks/description/two-columns/__brief/two-columns__brief.css";
-@import "../blocks/description/two-columns/__main-text/two-columns__main-text.css";
-@import "../blocks/description/two-columns/__paragraph/two-columns__paragraph.css";
 
 /*feynman*/
 
@@ -61,12 +55,10 @@
 /*digits*/
 
 @import "../blocks/digits/digits.css";
-@import "../blocks/digits/section-title/section-title.css";
-@import "../blocks/digits/section-subtitle/section-subtitle.css";
-@import "../blocks/digits/table/table.css";
-@import "../blocks/digits/table/__cell/table__cell.css";
-@import "../blocks/digits/table/__heading/table__heading.css";
-@import "../blocks/digits/table/__text/table__text.css";
+@import "../blocks/table/table.css";
+@import "../blocks/table/__cell/table__cell.css";
+@import "../blocks/table/__heading/table__heading.css";
+@import "../blocks/table/__text/table__text.css";
 
 /*khan*/
 
@@ -85,18 +77,18 @@
 /*kaufman*/
 
 @import "../blocks/kaufman/kaufman.css";
-@import "../blocks/digits/section-title/_theme/section-title_theme_dark.css";
-@import "../blocks/digits/section-subtitle/_theme/section-subtitle_theme_dark.css";
-@import "../blocks/digits/table/_theme/table_theme_dark.css";
-@import "../blocks/digits/table/__cell/_theme/table__cell_theme_dark.css";
+@import "../blocks/section-title/_theme/section-title_theme_dark.css";
+@import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
+@import "../blocks/table/_theme/table_theme_dark.css";
+@import "../blocks/table/__cell/_theme/table__cell_theme_dark.css";
 @import "../blocks/kaufman/__triangle/kaufman__triangle.css";
 @import "../blocks/rotation/rotation.css";
 
 /*resources*/
 
 @import "../blocks/resources/resources.css";
-@import "../blocks/digits/section-title/_theme/section-title_theme_dark.css";
-@import "../blocks/digits/section-subtitle/_theme/section-subtitle_theme_dark.css";
+@import "../blocks/section-title/_theme/section-title_theme_dark.css";
+@import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
 @import "../blocks/resources/__logo-zone/resources__logo-zone.css";
 @import "../blocks/resources/__logo/resources__logo.css";
 
